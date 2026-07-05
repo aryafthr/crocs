@@ -1,0 +1,46 @@
+body {
+    background-image: url('wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-modern {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.navbar-modern .nav-link {
+  color: #333333;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-modern .nav-link:hover,.navbar-modern .nav-link.active 
+{
+  color: #0d6efd !important; 
+}
+
+.btn-cta {
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+
+.bg-pink {
+  background-color: var(--bs-pink) !important;
+  color: white; 
+}
+.bg-khaki-beige {
+  background-color: #F5F5DC !important; 
+  color: black; 
+}
+.card-title{
+  font-family: 'Roboto', sans-serif;
+}
